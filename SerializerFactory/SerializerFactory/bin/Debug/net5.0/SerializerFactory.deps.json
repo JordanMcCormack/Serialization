@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SerializerFactory/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "protobuf-net": "3.1.0"
+        },
+        "runtime": {
+          "SerializerFactory.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "protobuf-net/3.1.0": {
+        "dependencies": {
+          "protobuf-net.Core": "3.1.0"
+        },
+        "runtime": {
+          "lib/net5.0/protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.0.42307"
+          }
+        }
+      },
+      "protobuf-net.Core/3.1.0": {
+        "runtime": {
+          "lib/net5.0/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.0.42307"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SerializerFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "protobuf-net/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dZjLX2TzcEkPy/oZfCB/GE32+oJlX58w/zNMkJ1JPdMeO1oTSfiXVxgFagya8xblBhHpr1v4PBbt3Q13Yvvtwg==",
+      "path": "protobuf-net/3.1.0",
+      "hashPath": "protobuf-net.3.1.0.nupkg.sha512"
+    },
+    "protobuf-net.Core/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lnirDSIBK6bG7DPae3m6L8IcQsUGmMrTKXuoGDspquOpFxla0zMKUUGUkM2XB76cHrVp2+EcZXlYnXz0lf0U2w==",
+      "path": "protobuf-net.core/3.1.0",
+      "hashPath": "protobuf-net.core.3.1.0.nupkg.sha512"
+    }
+  }
+}
