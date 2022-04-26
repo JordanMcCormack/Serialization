@@ -21,6 +21,10 @@ namespace SerializerFactory
                     return new XmlSerialization();
                 case SerializerType.Protobuf:
                     return new ProtoBufSerializer();
+                case SerializerType.JsonUTF:
+                    return new JsonSerializerUtf8();
+                case SerializerType.Binary:
+                    return new BinarySerializer();
                 default:
                     throw new NotImplementedException();
             }
