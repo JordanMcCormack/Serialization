@@ -14,7 +14,9 @@ namespace SerializerFactory
     {
         Xml,
         Json,
-        Protobuf
+        Protobuf,
+        JsonUTF,
+        Binary
     }
 
     public interface ISerializer
